@@ -1,0 +1,72 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+section {
+  margin-left: 30%;
+  height: 800px;
+  width: 800px;
+  background-color: rgba(8, 70, 163, 0.87);
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+  background-color: #2b0572e5;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo{
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px ;
+    background-color: rgb(194, 194, 230);
+}
+
+button{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px ;
+    background-color: rgb(194, 194, 230);
+}
+
+.itens{ 
+    padding: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 80px;
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+}
+
+li{
+    border-radius: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    padding-top: 2%;
+    background-color: rgb(168, 196, 248);
+}
+.card_itens{
+    padding: 8px;
+    margin-top: 50px;
+    margin-left: 16%;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+}
+
+.selecionado{
+    background-color: yellow;
+}
